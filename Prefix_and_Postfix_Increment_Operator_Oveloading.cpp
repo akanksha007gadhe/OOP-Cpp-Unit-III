@@ -32,4 +32,10 @@ int main() {
 
     std::cout << "Value returned by postfix increment: ";
     Counter oldValue = counter++;
+    oldValue.display();
+
+    std::cout << "Counter after postfix increment: ";
+    counter.display();
+
+    return 0;
 }
